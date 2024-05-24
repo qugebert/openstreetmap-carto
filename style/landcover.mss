@@ -28,21 +28,21 @@
 
 // --- Transport ----
 
-@transportation-area: #e9e7e2;
-@apron: #dadae0;
-@garages: #dfddce;
-@parking: #eeeeee;
+@transportation-area: #16181d;
+@apron: #25251f;
+@garages: #202231;
+@parking: #111111;
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
-@rest_area: #efc8c8; // also services
+@rest_area: #103737; // also services
 
 // --- Other ----
 
-@bare_ground: #eee5dc;
-@campsite: #def6c0; // also caravan_site, picnic_site
-@cemetery: #aacbaf; // also grave_yard
-@construction: #c7c7b4; // also brownfield
+@bare_ground: #111a23;
+@campsite: #21093f; // also caravan_site, picnic_site
+@cemetery: #553450; // also grave_yard
+@construction: #38384b; // also brownfield
 @heath: #25261c;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
 @place_of_worship: #d0d0d0; // also landuse_religious
