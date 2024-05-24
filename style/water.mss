@@ -1,6 +1,6 @@
-@water-text: #4d80b3;
-@glacier: #ddecec;
-@glacier-line: #9cf;
+@water-text: #21364c;
+@glacier: #121313;
+@glacier-line: #000;
 
 @waterway-text-repeat-distance: 200;
 
@@ -191,7 +191,7 @@
         water/line-dasharray: 4,2;
         tunnelfill/line-width: 1;
         [waterway = 'stream'] { tunnelfill/line-width: 2; }
-        tunnelfill/line-color: #f3f7f7;
+        tunnelfill/line-color: #080808;
       }
     }
   }
