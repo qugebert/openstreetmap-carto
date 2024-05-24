@@ -1,9 +1,9 @@
-@breakwater-color: #aaa; /* Also for groyne */
-@dam: #adadad;
-@dam-line: #444444;
-@weir-line: #aaa;
-@lock-gate: #aaa;
-@lock-gate-line: #aaa;
+@breakwater-color: #555; /* Also for groyne */
+@dam: #525252;
+@dam-line: #bbbbbb;
+@weir-line: #555;
+@lock-gate: #555;
+@lock-gate-line: #555;
 
 #water-barriers-point, #water-barriers-line, #water-barriers-poly {
   [waterway = 'dam'] {
@@ -125,7 +125,7 @@
       text-name: "[name]";
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
-      text-fill: #222;
+      text-fill: #ddd;
       text-size: 10;
       text-face-name: @book-fonts;
       #text-line {
