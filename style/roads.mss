@@ -1,37 +1,37 @@
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
+@tertiary-fill: #000000;
+@residential-fill: #000000;
 @service-fill: @residential-fill;
-@living-street-fill: #ededed;
-@pedestrian-fill: #dddde8;
-@raceway-fill: #ffc0cb;
-@road-fill: #ddd;
-@footway-fill: salmon;
-@footway-fill-noaccess: #bbbbbb;
+@living-street-fill: #121212;
+@pedestrian-fill: #161617;
+@raceway-fill: #000000;
+@road-fill: #222;
+@footway-fill: 050302;
+@footway-fill-noaccess: #444444;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #bbbbbb;
+@steps-fill-noaccess: #444444;
 @cycleway-fill: blue;
-@cycleway-fill-noaccess: #9999ff;
+@cycleway-fill-noaccess: #666600;
 @bridleway-fill: green;
-@bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@platform-fill: #bbbbbb;
-@aeroway-fill: #bbc;
+@bridleway-fill-noaccess: #1a221a;
+@track-fill: #664400;
+@track-fill-noaccess: #1d1918;
+@platform-fill: #444444;
+@aeroway-fill: #443;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-primary: #f0f0f0;
-@access-marking-secondary: #e4e4e4;
-@access-marking-white-unpaved: #e0e0e0;
-@access-marking-road: #f0f0f0;
-@access-marking-living-street: #d4d4d4;
+@access-marking: #151515;
+@access-marking-primary: #0f0f0f;
+@access-marking-secondary: #1b1b1b;
+@access-marking-white-unpaved: #1f1f1f;
+@access-marking-road: #0f0f0f;
+@access-marking-living-street: #2b2b2b;
 
 @default-casing: white;
-@tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@tertiary-casing: #707070;
+@residential-casing: #444;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
@@ -43,16 +43,16 @@
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #3b3b3b;
+@tertiary-shield: #c4c4c4;
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #aaa;
-@service-construction: #aaa;
+@minor-construction: #555;
+@service-construction: #555;
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@destination-marking: #3d1f00;
+@private-marking: #105656;
+@private-marking-for-red: #3d1f1f;
 
 @tunnel-casing: grey;
 @bridge-casing: black;
@@ -4193,7 +4193,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [railway = 'tram'] {
     [zoom >= 17] {
       text-name: "[name]";
-      text-fill: #666666;
+      text-fill: #999999;
       text-size: 10;
       text-dy: 6;
       text-spacing: 900;
@@ -4215,7 +4215,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [highspeed = 'yes'] {
       [zoom >= 11] {
         text-name: "[name]";
-        text-fill: #666666;
+        text-fill: #999999;
         text-size: 10;
         text-dy: 3;
         text-spacing: 300;
@@ -4244,7 +4244,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [highspeed != 'yes'][usage = 'main'] {
       [zoom >= 14] {
         text-name: "[name]";
-        text-fill: #666666;
+        text-fill: #999999;
         text-size: 10;
         text-dy: 6;
         text-spacing: 300;
@@ -4274,7 +4274,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   [railway = 'construction'] {
     [zoom >= 17] {
       text-name: "[name]";
-      text-fill: #666666;
+      text-fill: #999999;
       text-size: 10;
       text-dy: 6;
       text-spacing: 900;
