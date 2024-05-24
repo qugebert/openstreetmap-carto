@@ -1,4 +1,4 @@
-@power-line-color: #888;
+@power-line-color: #777;
 
 #power-line {
   [zoom >= 14] {
@@ -48,7 +48,7 @@
   }
   [power = 'pole'][zoom >= 16] {
     marker-file: url('symbols/square.svg');
-    marker-fill: #928f8f;
+    marker-fill: #6d6b6b;
     marker-width: 3;
   }
 }
