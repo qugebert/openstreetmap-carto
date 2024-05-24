@@ -1,12 +1,12 @@
 // --- Parks, woods, other green things ---
 
-@grass: #cdebb0;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #c8d7ab;        // Lch(84,24,122)
-@forest: #add19e;       // Lch(80,30,135)
-@forest-text: #46673b;  // Lch(40,30,135)
-@park: #c8facc;         // Lch(94,30,145)
-@allotments: #c9e1bf;   // Lch(87,20,135)
-@orchard: #aedfa3; // also vineyard, plant_nursery
+@grass: #11140f;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #252820;        // Lch(84,24,122)
+@forest: #262e23;       // Lch(80,30,135)
+@forest-text: #679857;  // Lch(40,30,135)
+@park: #040504;         // Lch(94,30,145)
+@allotments: #1b1e19;   // Lch(87,20,135)
+@orchard: #192017; // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
 
 // --- "Base" landuses ---
@@ -43,7 +43,7 @@
 @campsite: #def6c0; // also caravan_site, picnic_site
 @cemetery: #aacbaf; // also grave_yard
 @construction: #c7c7b4; // also brownfield
-@heath: #d6d99f;
+@heath: #25261c;
 @mud: rgba(203,177,154,0.3); // produces #e6dcd1 over @land
 @place_of_worship: #d0d0d0; // also landuse_religious
 @place_of_worship_outline: darken(@place_of_worship, 30%);
