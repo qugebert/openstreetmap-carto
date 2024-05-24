@@ -57,13 +57,13 @@
 @tunnel-casing: grey;
 @bridge-casing: black;
 
-@motorway-tunnel-fill: lighten(@motorway-fill, 10%);
-@trunk-tunnel-fill: lighten(@trunk-fill, 10%);
-@primary-tunnel-fill: lighten(@primary-fill, 10%);
-@secondary-tunnel-fill: lighten(@secondary-fill, 5%);
-@tertiary-tunnel-fill: lighten(@tertiary-fill, 5%);
-@residential-tunnel-fill: darken(@residential-fill, 5%);
-@living-street-tunnel-fill: lighten(@living-street-fill, 3%);
+@motorway-tunnel-fill: darken(@motorway-fill, 10%);
+@trunk-tunnel-fill: darken(@trunk-fill, 10%);
+@primary-tunnel-fill: darken(@primary-fill, 10%);
+@secondary-tunnel-fill: darken(@secondary-fill, 5%);
+@tertiary-tunnel-fill: darken(@tertiary-fill, 5%);
+@residential-tunnel-fill: lighten(@residential-fill, 5%);
+@living-street-tunnel-fill: darken(@living-street-fill, 3%);
 
 @motorway-width-z6:               0.4;
 @trunk-width-z6:                  0.4;
@@ -295,20 +295,20 @@
 @lowzoom-halo-color:              white;
 @lowzoom-halo-width:              1;
 
-@motorway-oneway-arrow-color:     darken(@motorway-casing, 25%);
-@trunk-oneway-arrow-color:        darken(@trunk-casing, 25%);
-@primary-oneway-arrow-color:      darken(@primary-casing, 15%);
-@secondary-oneway-arrow-color:    darken(@secondary-casing, 10%);
-@tertiary-oneway-arrow-color:     darken(@tertiary-casing, 30%);
-@residential-oneway-arrow-color:  darken(@residential-casing, 40%);
-@living-street-oneway-arrow-color: darken(@residential-casing, 30%);
-@pedestrian-oneway-arrow-color:   darken(@pedestrian-casing, 25%);
-@raceway-oneway-arrow-color:      darken(@raceway-fill, 50%);
-@footway-oneway-arrow-color:      darken(@footway-fill, 35%);
-@steps-oneway-arrow-color:        darken(@steps-fill, 35%);
-@cycleway-oneway-arrow-color:     darken(@cycleway-fill, 25%);
-@track-oneway-arrow-color:        darken(@track-fill, 10%);
-@bridleway-oneway-arrow-color:    darken(@bridleway-fill, 15%);
+@motorway-oneway-arrow-color:     lighten(@motorway-casing, 25%);
+@trunk-oneway-arrow-color:        lighten(@trunk-casing, 25%);
+@primary-oneway-arrow-color:      lighten(@primary-casing, 15%);
+@secondary-oneway-arrow-color:    lighten(@secondary-casing, 10%);
+@tertiary-oneway-arrow-color:     lighten(@tertiary-casing, 30%);
+@residential-oneway-arrow-color:  lighten(@residential-casing, 40%);
+@living-street-oneway-arrow-color: lighten(@residential-casing, 30%);
+@pedestrian-oneway-arrow-color:   lighten(@pedestrian-casing, 25%);
+@raceway-oneway-arrow-color:      lighten(@raceway-fill, 50%);
+@footway-oneway-arrow-color:      lighten(@footway-fill, 35%);
+@steps-oneway-arrow-color:        lighten(@steps-fill, 35%);
+@cycleway-oneway-arrow-color:     lighten(@cycleway-fill, 25%);
+@track-oneway-arrow-color:        lighten(@track-fill, 10%);
+@bridleway-oneway-arrow-color:    lighten(@bridleway-fill, 15%);
 
 // Shield’s line wrap is based on OpenStreetMap data and not on line-wrap-width,
 // but lines are typically rather short, so we use narrow line spacing.
@@ -2082,7 +2082,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line-join: round;
         line-cap: round;
         #tunnels {
-          line-color: darken(white, 5%);
+          line-color: lighten(white, 5%);
         }
         #bridges {
           [service = 'INT-normal'] {
