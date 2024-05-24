@@ -11,20 +11,20 @@
 
 // --- "Base" landuses ---
 
-@built-up-lowzoom: #d0d0d0;
-@built-up-z12: #dddddd;
-@residential: #e0dfdf;      // Lch(89,0,0)
-@residential-line: #b9b9b9; // Lch(75,0,0)
-@retail: #ffd6d1;           // Lch(89,16,30)
-@retail-line: #d99c95;      // Lch(70,25,30)
-@commercial: #f2dad9;       // Lch(89,8.5,25)
-@commercial-line: #d1b2b0;  // Lch(75,12,25)
-@industrial: #ebdbe8;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
-@industrial-line: #c6b3c3;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
-@farmland: #eef0d5;         // Lch(94,14,112)
-@farmland-line: #c7c9ae;    // Lch(80,14,112)
-@farmyard: #f5dcba;         // Lch(89,20,80)
-@farmyard-line: #d1b48c;    // Lch(75,25,80)
+@built-up-lowzoom: #2f2f2f;
+@built-up-z12: #222222;
+@residential: #1f2020;      // Lch(89,0,0)
+@residential-line: #464646; // Lch(75,0,0)
+@retail: #00292e;           // Lch(89,16,30)
+@retail-line: #26636a;      // Lch(70,25,30)
+@commercial: #0d2526;       // Lch(89,8.5,25)
+@commercial-line: #2e4d4f;  // Lch(75,12,25)
+@industrial: #142417;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
+@industrial-line: #394c3c;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
+@farmland: #110f2a;         // Lch(94,14,112)
+@farmland-line: #383651;    // Lch(80,14,112)
+@farmyard: #0a2345;         // Lch(89,20,80)
+@farmyard-line: #2e4b73;    // Lch(75,25,80)
 
 // --- Transport ----
 
